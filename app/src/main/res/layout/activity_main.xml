@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdesign"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+
+        android:padding="8dp"
+        android:text="Log In"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/login_em"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edtdesign"
+
+        android:hint="Email:"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColorHint="@android:color/white" />
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/login_pass"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/edtdesign"
+        android:hint="Password"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColorHint="@android:color/white" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edtdesign"
+        android:padding="8dp"
+        android:text="Log In"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/signup_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Don't have account Sign up here!"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

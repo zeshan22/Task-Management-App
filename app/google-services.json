@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "500261300820",
+    "firebase_url": "https://task-management-app-139a5.firebaseio.com",
+    "project_id": "task-management-app-139a5",
+    "storage_bucket": "task-management-app-139a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500261300820:android:225049424d8862ea",
+        "android_client_info": {
+          "package_name": "com.example.officetaskmanagementapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500261300820-gv2qfe47tr71sp20g1nbm6io0b4dfsoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKT9pAtZ1G3hQPsKsRhlBZXQ1w-DU6M0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
